@@ -11,13 +11,12 @@ import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.psi.PsiFile
 import com.intellij.psi.PsiManager
 import io.kotest.plugin.intellij.findFiles
-import io.kotest.plugin.intellij.psi.getAllSuperClasses
+import io.kotest.plugin.intellij.getAllSuperClasses
 import io.kotest.plugin.intellij.psi.isTestFile
 import io.kotest.plugin.intellij.psi.specs
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import org.jetbrains.kotlin.idea.core.util.toPsiFile
 import org.jetbrains.kotlin.psi.KtClassOrObject
 import org.jetbrains.kotlin.psi.KtProperty

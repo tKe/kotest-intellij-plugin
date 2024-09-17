@@ -15,7 +15,6 @@ repositories {
    }
 }
 
-
 data class PluginDescriptor(
    val since: String, // earliest version string this is compatible with
    val until: String, // latest version string this is compatible with, can be wildcard like 202.*
@@ -76,6 +75,12 @@ val descriptors = listOf(
       until = "243.*",
       sdkVersion = "2024.2",
       sourceFolder = "IC-242",
+   ),
+   PluginDescriptor(
+      since = "243.12818.47", // this version is 2024.3
+      until = "243.*",
+      sdkVersion = "243.12818.47",
+      sourceFolder = "IC-243",
    ),
 )
 

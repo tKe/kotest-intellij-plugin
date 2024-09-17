@@ -35,6 +35,10 @@
       </action>
    </actions>
 
+   <extensions defaultExtensionNs="org.jetbrains.kotlin">
+      <supportsKotlinPluginMode supportsK2="true" />
+   </extensions>
+
    <extensions defaultExtensionNs="com.intellij">
       <configurationType implementation="io.kotest.plugin.intellij.KotestConfigurationType"/>
       <defaultLiveTemplates file="liveTemplates.xml" />

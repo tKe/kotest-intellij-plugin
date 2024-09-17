@@ -2,6 +2,7 @@ package io.kotest.plugin.intellij.psi
 
 import com.intellij.psi.PsiElement
 import com.intellij.psi.PsiFile
+import io.kotest.plugin.intellij.getAllSuperClasses
 import io.kotest.plugin.intellij.styles.SpecStyle
 import org.jetbrains.kotlin.asJava.classes.KtLightClass
 import org.jetbrains.kotlin.asJava.classes.KtUltraLightClass
